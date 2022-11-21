@@ -6,5 +6,6 @@ __pycache__
 *.pytest_cache
 *pkl
 pickled_models/
-*zip
-chest_xray/
+*.zip
+data/chest_xray/
+*.jpeg
