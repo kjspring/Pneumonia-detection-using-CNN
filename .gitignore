@@ -9,3 +9,4 @@ pickled_models/
 *.zip
 data/chest_xray/
 *.jpeg
+Train_Test_Folder/
