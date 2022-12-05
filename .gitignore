@@ -10,3 +10,4 @@ pickled_models/
 data/chest_xray/
 *.jpeg
 Train_Test_Folder/
+*.keras
