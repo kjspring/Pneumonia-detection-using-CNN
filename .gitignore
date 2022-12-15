@@ -11,3 +11,6 @@ data/chest_xray/
 *.jpeg
 Train_Test_Folder/
 *.keras
+*.tar.gz
+huroku_model/
+
