@@ -1,16 +1,25 @@
-  
+  # ignore temporary files and databases
 .ipynb_checkpoints
 .DS_Store
 __pycache__
 *.db
 *.pytest_cache
 *pkl
-pickled_models/
-*.zip
-data/chest_xray/
-*.jpeg
-Train_Test_Folder/
-*.keras
-*.tar.gz
-huroku_model/
 
+# ignore data folders and files
+data/
+Train_Test_Folder/
+*.tar.gz
+*.zip
+
+# ignore models
+.keras
+.h5
+.pkl
+models/
+
+# ignore all .md files
+.md
+
+# does not ignore the README.md file
+!README.md
