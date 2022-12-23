@@ -11,6 +11,8 @@ data/
 Train_Test_Folder/
 *.tar.gz
 *.zip
+.jpeg
+.jpg
 
 # ignore models
 .keras
