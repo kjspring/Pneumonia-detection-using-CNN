@@ -8,7 +8,8 @@ __pycache__
 
 # ignore data folders and files
 chest_xray/
-data/
+data/PNEUMONIA/
+data/NORMAL/
 Train_Test_Folder/
 *.tar.gz
 *.zip
