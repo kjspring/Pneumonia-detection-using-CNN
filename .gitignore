@@ -7,6 +7,7 @@ __pycache__
 *pkl
 
 # ignore data folders and files
+chest_xray/
 data/
 Train_Test_Folder/
 *.tar.gz
