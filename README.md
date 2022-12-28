@@ -32,6 +32,8 @@ Include plot showing Accuracy, Recall, and Specificity between the 6 models
 
 ## Pneumonia Classification App
 
+The [pneumonia classification app](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app/) is a prototype to allow stakeholders and other interested parties to test the pneumonia classification model on their own. Go to the [website](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app/) and upload your chest x-ray image. The model will classify the x-ray as normal or pneumonia.
+
 ![pneumonia detection app](img/app_img.png)
 
 ## Conclusions
