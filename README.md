@@ -18,7 +18,7 @@ With the increase cost and lower supply of radiologists, United Healthcare needs
 - Healthcare workers
 
 ## Methods
-Convolutional Neural Networks (CNN) is a machine learning technique that reduces the high dimensionality of images without losing its information. CNNs have outperformed other machine learning algorithms in image classification.
+Convolutional Neural Networks (CNN) is a machine learning technique that reduces that can be used to classify images. CNNs have outperformed other machine learning algorithms in image classification.
 
 ![Convolutional Neural Network](https://miro.medium.com/max/828/1*vkQ0hXDaQv57sALXAJquxA.webp)
 
@@ -31,6 +31,8 @@ While densly connected neural networks learn global patterns in ther input featu
 Include plot showing Accuracy, Recall, and Specificity between the 6 models
 
 ## Pneumonia Classification App
+
+![pneumonia detection app](img/app_img.png)
 
 ## Conclusions
 
