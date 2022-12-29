@@ -38,13 +38,7 @@ The folder structure in `Train_Test_Folder` is:
 The data in the `train` folder was further divided into training (80%) and validation (20%) using `tensorflow.keras.utils.image_dataset_from_directory`. Colormode was set to `grayscale`, image height was set to 240, and image width converted to 240. The data in the `test` folder was used for the testing data and similarily processed as the training.
 
 
-
-From the training folder
-
-
-
-
-## Methods
+## Models
 Convolutional Neural Networks (CNN) is a machine learning technique that reduces that can be used to classify images. CNNs have outperformed other machine learning algorithms in image classification.
 
 ![Convolutional Neural Network](https://miro.medium.com/max/828/1*vkQ0hXDaQv57sALXAJquxA.webp)
