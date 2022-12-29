@@ -70,4 +70,8 @@ The CNN model is very good at classifying chest x-rays as pneumonia or normal. I
 The prototye pneumonia classification app will be tested by the stakeholders to determine which features need to be added. Some of these features will include feedback from the radiologist to tag the chest x-ray as being normal or pneumonia. With this additional feedback the model can be continuously improved at detecting pneumonia in chest x-rays.
 
 
+## Links
+[Pneumonia Classification App](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app)
+[Pneumonia Classification App Code Repository](https://github.com/kjspring/x-ray-pneumonia-prediction-app)
+
 ## References
