@@ -28,6 +28,8 @@ To find a solution to this business problem we need labeled chest x-ray images. 
 
 In the Kaggle repository there are 5,863 x-ray images in JPEG format. They are stored in directories labeled 'val', 'test', and 'train'. Within each of those directories the images are in folders 'PNEUMONIA' or 'NORMAL'.
 
+![Example Chest x-ray images](https://i.imgur.com/jZqpV51.png)
+
 The data found in the `NORMAL` and `PNEUMONIA` folders were compiled together separately. These were then split into training and testing data using the python library [`python_splitter`](https://github.com/bharatadk/python_splitter). A [compressed version](https://drive.google.com/file/d/1__QzvDDuMxaYDhZ1o5A98Pbsk4SlUneV/view?usp=share_link) of this cleaned data is available to download and is what you should use to reproduce this work, althought the Jupyter notebook also contains instructions to download the original unclean dataset and cleaning it.
 
 The folder structure in `Train_Test_Folder` is:
