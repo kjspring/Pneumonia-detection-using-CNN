@@ -11,11 +11,11 @@ It may take the radiologist a few minutes to identify pneumonia with their domai
 
 Our company, United Healthcare, is an medical insurance company that provides health insurance through private and Affordable Care Act (ACA) health insurance exchanges. We are expanding our coverage to more rural clients and hospitals but this is where the shortage of specialty care such as radiology is in crisis. Reducing this bottleneck in pneumonia diagnosis will reduce the time a patient is admitted to the hospital and reduce costs associated with this care.
 
-With the increase cost and lower supply of radiologists, United Healthcare needs to **develop an application to classify chest x-ray images with pneumonia or without (normal)**. Those predicted to have pneumonia would be forwarded to a radiologist for a confirmed diagnosis. This will lessen the burden and cost of radiologists reviewing chest x-rays that are not indicative of pneumonia.
+With the increase cost and lower supply of radiologists, United Healthcare needs to *develop an application to classify chest x-ray images with pneumonia or without (normal)*. Those predicted to have pneumonia would be forwarded to a radiologist for a confirmed diagnosis. This will lessen the burden and cost of radiologists reviewing chest x-rays that are not indicative of pneumonia.
 
 ## Stakeholders
-- United Healthcare executives
-- Healthcare workers
+- United Healthcare executives to decide deployment of the [Pneumonia Classification Application](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app)
+- Healthcare workers using the [Pneumonia Classification Application](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app)
 
 ## Repository Navigation
 * [/data](/data) Folder where data is to be downloaded
