@@ -17,6 +17,11 @@ With the increase cost and lower supply of radiologists, United Healthcare needs
 - United Healthcare executives
 - Healthcare workers
 
+## Repository Navigation
+[/data](/data) Folder where data is to be downloaded
+[/img](/img) Image files for notebook and Pneumonia Classification App testing
+[/plots](/plots) Saved plots from jupyter notebook
+
 ## Data
 
 To find a solution to this business problem we need labeled chest x-ray images. There is a freely available dataset found on [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). It was originally collected by [Kermany et al](https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5). There are a total of 1583 normal images and 4273 pneumonia images. This is a significant imbalance. Weights were put on the classes to account for this imbalance. In this way more weight will be given to the normal images and less to the pneumonia images to make them balanced.
