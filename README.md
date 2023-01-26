@@ -50,15 +50,15 @@ While densly connected neural networks learn global patterns in ther input featu
 
 ![CNN spatial hierarchies](img/spatial_hierarchy.PNG)
 
-Six models were developed from a simple single layer baseline model to a model that uses a 19-layer CNN that was pretrained on one million images.
+Five models were developed from a simple single layer baseline model to a model that uses a 19-layer CNN that was pretrained on one million images.
 
 ## Model Results
 
-For our business problem we need to be careful about false negatives. These are images the model would predict as being normal when the patient has pneumonia. False negatives must be kept low because patients with x-rays classified as normal will not have a second look by a licensed medical profession to confirm pneumonia. Accuracy also needs to be high as the model would not be useful if the model is not accurate at detecting a normal x-ray from an x-ray with signs of pneumonia. I would like both accuracy and specificity to be above 90%.
+For our business problem we need to be careful about false negatives. These are images the model would predict as being normal when the patient has pneumonia. False negatives must be kept low because patients with x-rays classified as normal will not have a second look by a licensed medical profession to confirm pneumonia. Accuracy also needs to be high as the model would not be useful if the model is not accurate at detecting a normal x-ray from an x-ray with signs of pneumonia. I would like both accuracy and specificity to be above 90%, while false negative rate (FNR) should be below 5%.
 
-According to my criteria, the best model was ____ model. This is because it has the highest accuracy of _____ and lowest false positive rate at _____ (specificity: ).
+According to my criteria, the best model was model 1, the baseline model. This is because it has the highest accuracy and the lowest false negative rate.
 
-Include plot showing Accuracy, Recall, and Specificity between the 6 models
+![/plots/ai/model1_test_cm.jpg]
 
 ## Pneumonia Classification App
 
