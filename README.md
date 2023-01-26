@@ -64,7 +64,7 @@ According to my criteria, the best model was model 1, the baseline model. This i
 
 ## Pneumonia Classification App
 
-The Pneumonia Classification App is designed to be used by health professionals to quickly identify patients that may have pneumonia. This will pre-screen the patients before the x-ray is sent to a radiologist. Instead of a radiologist. The radiologist would then classify the images as having pneumonia or not. This data would be saved to further train future models as the application is updated.
+The Pneumonia Classification App is designed to be used by health professionals to quickly identify patients that may have pneumonia. This will pre-screen the patients before the x-ray is sent to a radiologist. The radiologist would then classify the images as having pneumonia or not. This data would be saved to further train future models as the application is updated.
 
 This [pneumonia classification app](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app/) is a prototype to allow stakeholders and other interested parties to test the pneumonia classification model on their own. Go to the [website](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app/) and upload your chest x-ray image. The model will classify the x-ray as normal or pneumonia.
 
@@ -72,9 +72,17 @@ This [pneumonia classification app](https://kjspring-x-ray-pneumonia-prediction-
 
 ## Conclusions
 
-The CNN model is very good at classifying chest x-rays as pneumonia or normal. It has the best __________
+The five models built for this analysis all did very well in accuracy, specificity, recall, and false negative rate (FNR). Accuracy is the ability to correctly predict pneumonia and normal cases out of all the classifications. Recall is the ability for a model to accuratly classify the positive case (pneumonia). Specificity is the probability that an actual normal x-ray will be classified as normal.
 
-The prototye pneumonia classification app will be tested by the stakeholders to determine which features need to be added. Some of these features will include feedback from the radiologist to tag the chest x-ray as being normal or pneumonia. With this additional feedback the model can be continuously improved at detecting pneumonia in chest x-rays.
+The best model according to validation and testing metrics is model 1. It had the highest values for accuracy, specificity, recall, and false negative rate. This is a simple convolutional neural network that has one layer convolutional layer and max pooling layer. The decay in the evaluation metrics from a simple CNN to more comlex ones was suprising. The reason this did better versus the other more complex models may be due to the limited amount of images in the dataset. As more layers are added to the model the more complexity and detail that the neural network would be able to process. The higher amount of connections between the layers may result in more innacurate information and overfitting.
+
+Althought model 5 had the worse testing metrics compared to the other models, my small test with the prediction function indicates that model 5 with images downloaded from Google Image Search may be the best choice for use in the Pneumonia Classification Application. This is because it was able to correctly classify these images while model 1 classified both the normal and pneumonia images as pneumonia. It would be beneficial to do A/B testing to compare model 5 with model 1 in beta testing of the Pneumonia Classification Application. Doing this we can determine which model is better and improve that model by including this new data in subsequent training data.
+
+## Recommendatons
+* Deploy the Pneumonia Classificaiton Application with our healthcare partners
+* Use A/B testing with model 1 and 5 in beta testing of Pneumonia Classification App
+* Allow application users to leave feedback on the actual diagnosis of the patient
+* Accumulate this extra data to improve the classification model
 
 
 ## Links
