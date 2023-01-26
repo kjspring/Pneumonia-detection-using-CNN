@@ -18,9 +18,9 @@ With the increase cost and lower supply of radiologists, United Healthcare needs
 - Healthcare workers
 
 ## Repository Navigation
-[/data](/data) Folder where data is to be downloaded
-[/img](/img) Image files for notebook and Pneumonia Classification App testing
-[/plots](/plots) Saved plots from jupyter notebook
+* [/data](/data) Folder where data is to be downloaded
+* [/img](/img) Image files for notebook and Pneumonia Classification App testing
+* [/plots](/plots) Saved plots from jupyter notebook
 
 ## Data
 
