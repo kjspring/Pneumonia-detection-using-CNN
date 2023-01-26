@@ -19,6 +19,7 @@ With the increase cost and lower supply of radiologists, United Healthcare needs
 
 ## Repository Navigation
 * [/data](/data) Folder where data is to be downloaded
+* [/deliverables](/deliverables) Files delivered to stakeholders
 * [/img](/img) Image files for notebook and Pneumonia Classification App testing
 * [/plots](/plots) Saved plots from jupyter notebook
 
