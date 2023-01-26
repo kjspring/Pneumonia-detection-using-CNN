@@ -58,6 +58,8 @@ For our business problem we need to be careful about false negatives. These are 
 
 According to my criteria, the best model was model 1, the baseline model. This is because it has the highest accuracy and the lowest false negative rate.
 
+### Model 1 confusion matrix on testing data
+
 ![Model 1 confusion matrix on testing data](/plots/ai/model1_test_cm.jpg)
 
 ## Pneumonia Classification App
