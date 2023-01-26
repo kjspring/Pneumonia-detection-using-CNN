@@ -84,9 +84,6 @@ Althought model 5 had the worse testing metrics compared to the other models, my
 * Allow application users to leave feedback on the actual diagnosis of the patient
 * Accumulate this extra data to improve the classification model
 
-
 ## Links
 * [Pneumonia Classification App](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app)
 * [Pneumonia Classification App Code Repository](https://github.com/kjspring/x-ray-pneumonia-prediction-app)
-
-## References
