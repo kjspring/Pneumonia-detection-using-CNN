@@ -89,3 +89,4 @@ Althought model 5 had the worse testing metrics compared to the other models, my
 ## Links
 * [Pneumonia Classification App](https://kjspring-x-ray-pneumonia-prediction-app-app-bmt24r.streamlit.app)
 * [Pneumonia Classification App Code Repository](https://github.com/kjspring/x-ray-pneumonia-prediction-app)
+* [Non-technical presentation](/deliverables/nontechnical_presentation.pdf)
